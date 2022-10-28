@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\Tici\Desktop\recode\Atividades Individuais\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1507937789.index
+301018793.index
+2007240479.index
+3822350214.index
+3689519981.index
+3507270375.index
