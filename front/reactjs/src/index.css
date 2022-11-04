@@ -1,0 +1,225 @@
+body {
+  margin: auto;
+  font-family: 'Verdana';
+}
+
+/* Estilização home */
+
+.introducao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  padding: 20px, 10px, 20px, 10px;
+  margin: 25px;
+}
+
+.textoIntro h1 {
+  font-size: 36px;
+  margin-bottom: 24px;
+  color: #dcc601;
+  text-align: center;
+  padding: auto;
+}
+
+.textoIntro p {
+  font-size: 16px;
+  color: #05578a;
+  text-align: center;
+  padding: 20px;
+}
+
+.imagemIntro {
+  padding: 15px;
+}
+
+.imagemIntro>img {
+  max-width: 300px;
+  min-width: auto;
+  margin: 15px;
+  text-align: center;
+}
+
+.textoIntro {
+  min-height: auto;
+  min-width: auto;
+}
+
+.conteudo1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.conteudo1 h2 {
+  font-size: 24px;
+  margin-bottom: 18px;
+  color: #dcc601;
+  text-align: center;
+  padding: auto;
+
+}
+
+.conteudo1 p {
+  font-size: 16px;
+  margin-bottom: 18px;
+  color: #05578a;
+  text-align: center;
+  padding: auto;
+
+}
+
+.conteudo1 hr {
+  color: #05578a;
+}
+
+.imgPromocoes {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+  background-color: #fef7b5;
+}
+
+.imgPromocoes img {
+  max-width: 300px;
+  min-width: auto;
+  margin: 15px;
+  height: 150px;
+  width: 300px;
+}
+
+.bnt {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.bnt button {
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  background-color: #dcc601;
+}
+
+.bnt button a {
+  text-decoration: none;
+  color: #012b46;
+
+}
+
+header {
+  overflow: hidden;
+  background-color: #000788;
+}
+
+.menu {
+  text-align: center;
+  height: 80px;
+  padding: 10px;
+}
+
+.menu ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-family: 'Verdana';
+  font-weight: bold;
+  color: #fff;
+}
+
+.menu ul li a:hover {
+  text-decoration: overline;
+  color: #D5E5F2;
+}
+
+
+/* BOTÕES */
+.btn {
+  font-family: 'Verdana';
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  background-color: #1B65A6;
+  color: #fff;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.034);
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 19px;
+}
+
+.btnComprar {
+  font-family: 'Verdana';
+  font-size: 12px;
+  border-radius: 10px;
+  background-color: #1B65A6;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 35%;
+}
+
+.btnComprar:hover {
+  background-color: #0b770b;
+  color: #fff;
+}
+
+
+/* PAINÉIS */
+.painel1 {
+  background-color: #4EA4D9;
+  width: 100%;
+  min-height: 600px;
+  max-height: none;
+  text-align:center;
+}
+
+.painel2 {
+  width: 100%;
+  min-height: 750px;
+  max-height: none;
+  background-color: #fff;
+}
+
+.painel3 {
+  width: 100%;
+  min-height: 650px;
+  max-height: 1200px;
+  background-color: #fff;
+}
+
+.painel4 {
+  width: 100%;
+  min-height: 290px;
+  max-height: none;
+  background-color: #D5E5F2;
+  display: grid;
+  place-items: center;
+}
+
+
+/* rodapé */
+footer {
+  background-color: #000788;
+  min-height: 200px;
+  max-height: none;
+  text-align: center;
+  padding: 15px;
+  color: #D5E5F2;
+}
+
+footer a {
+  text-decoration: none;
+  font-family: 'Verdana';
+  color: #fff;
+}
